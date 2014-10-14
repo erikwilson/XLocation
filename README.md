@@ -4,7 +4,7 @@ XLocation
 XLocation is an Android XPosed plugin for advanced location management, and is a heavily modified version of XPrivacy, found at https://github.com/M66B/XPrivacy/.
 
 ### Fix for Android GPS bug (as of 4.4.4):
- * GPS stuck on in battery usage reports after toggling GPS off with an active listener. Changes to location provider through Secure Settings are intercepted and any active location listeners are unregistered before provider change and then re-registered afterwards. Battery stats should accurately report that the GPS is off and no programs should be using GPS when off, as reported through dumpsys. This bug is automatically patched after XLocation is installed.
+ * GPS stuck on in battery usage reports after toggling GPS off with an active listener. Changes to location provider through Secure Settings are intercepted and any active location listeners are unregistered before provider change and then re-registered afterwards. Battery stats should accurately report that the GPS is off and no programs should be actively using as reported through dumpsys.
 
 ### Fix for XPrivacy leaky listener bug (as of 3.4):
  * Proxied location listeners leak and were never able to unregister. Implement 'equals' and 'hashCode' methods for proper unregistration in the Android system.
