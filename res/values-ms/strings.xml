@@ -1,0 +1,252 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <string name="app_notenabled">XLocation tidak diaktifkan di dalam pemasang Xposed</string>
+    <string name="app_wrongandroid">Hanya untuk Android versi 4.0.3+</string>
+    <string name="app_incompatible" formatted="false">XLocation tidak serasi dengan %s</string>
+    <string name="app_version" formatted="false">XLocation versi: %s (%d)</string>
+    <string name="app_description">Pengurus Privasi Yang Muktamad</string>
+    <string name="app_copyright">Hak Cipta \u00A9 2013–2014 oleh M. Bokhorst (M66B)</string>
+    <string name="app_compatibility">Running in compatibility mode</string>
+    <string name="app_licensed">Licensed, thanks for your support!</string>
+    <string name="menu_usage">Penggunaan data</string>
+    <string name="menu_refresh">Penyegaran</string>
+    <string name="menu_settings">Tetapan</string>
+    <string name="menu_template">Template</string>
+    <string name="menu_report">Lapor Isu</string>
+    <string name="menu_export">Eksport</string>
+    <string name="menu_import">Import</string>
+    <string name="menu_submit">Kemuka Sekatan</string>
+    <string name="menu_fetch">Peroleh Sekatan</string>
+    <string name="menu_theme">Tukar Tema</string>
+    <string name="menu_pro">Versi Pakar</string>
+    <string name="menu_about">Tentang</string>
+    <string name="menu_help">Bantuan</string>
+    <string name="menu_select_all">Pilih semua</string>
+    <string name="menu_sort">Susun</string>
+    <string name="menu_filter">Tapis</string>
+    <string name="menu_all">Semua</string>
+    <string name="menu_toggle">Aktif sekatan</string>
+    <string name="menu_clear_all">Bersih semua</string>
+    <string name="menu_clear_usage">Bersih</string>
+    <string name="menu_clear_db">Bersih semua data XLocation</string>
+    <string name="menu_usage_all">Aktif tapisan</string>
+    <string name="menu_apply">Pasang template</string>
+    <string name="menu_clear">Bersih</string>
+    <string name="menu_app_launch">Lancar</string>
+    <string name="menu_app_settings">Tetapan</string>
+    <string name="menu_app_store">Play Store</string>
+    <string name="menu_app_kill">Matikan</string>
+    <string name="menu_accounts">Pilih akaun yang dibenarkan</string>
+    <string name="menu_applications">Pilih aplikasi yang dibenarkan</string>
+    <string name="menu_contacts">Pilih hubungan yang dibenarkan</string>
+    <string name="menu_whitelists">Manage whitelists</string>
+    <string name="menu_tutorial">Bimbingan</string>
+    <string name="menu_changelog">Changelog</string>
+    <string name="menu_flush">Flush cache</string>
+    <string name="menu_update">Check for updates</string>
+    <string name="menu_batch">Operations &#8230;</string>
+    <string name="menu_legend">Legend</string>
+    <string name="msg_abort">Sedang dibatalkan</string>
+    <string name="msg_aborted">Dibatalkan</string>
+    <string name="msg_new">Baru</string>
+    <string name="msg_update">Mengemaskini</string>
+    <string name="msg_loading">Memuatkan …</string>
+    <string name="msg_applying">Melaksanakan …</string>
+    <string name="msg_applied">Template dilaksanakan</string>
+    <string name="msg_saved_to" formatted="false">Disimpan di %s</string>
+    <string name="msg_no_restrictions">Tiada sekatan ditemui</string>
+    <string name="msg_sure">Anda pasti?</string>
+    <string name="msg_select">Sila pilih beberapa aplikasi</string>
+    <string name="msg_limit">Sila pilih kurang daripada %d applikasi</string>
+    <string name="msg_done">Selesai</string>
+    <string name="msg_reboot">Peranti perlu dimulakan semula</string>
+    <string name="msg_random_now">Rawakkan sekarang</string>
+    <string name="msg_random_access">Rawakkan bila diakses</string>
+    <string name="msg_random_boot">Rawakkan semasa peranti dihidupkan</string>
+    <string name="msg_restart">Perlu mula semula</string>
+    <string name="msg_register">Sila daftarkan peranti anda</string>
+    <string name="msg_email">Sila isikan e-mel anda:</string>
+    <string name="msg_registered">Sila semak e-mel untuk mengaktifkan peranti</string>
+    <string name="msg_service">Perkhidmatan mengemaskini sedang berjalan</string>
+    <string name="msg_migrating" formatted="false">Menghijrahkan %s</string>
+    <string name="msg_randomizing" formatted="false">Merawakkan %s</string>
+    <string name="msg_upgrading" formatted="false">Mengemaskinikan %s</string>
+    <string name="msg_support_info">Satu pemeriksaan dalaman gagal, hantar maklumat sokongan?</string>
+    <string name="msg_restrictedby">Disekatkan oleh XLocation</string>
+    <string name="msg_service_missing">Privacy service not found; did you enable XLocation in the Xposed installer and reboot your device?</string>
+    <string name="msg_service_version">Privacy service version mismatch; did you reboot your device after upgrading XLocation?</string>
+    <string name="msg_service_updating">Please wait until the update service has been completed</string>
+    <string name="msg_expert">Expert users are supposed to solve their own problems where possible and to follow the XDA XLocation forum and help others where possible</string>
+    <string name="msg_method_expert">Function restrictions are meant for expert users. Are you an expert user?</string>
+    <string name="msg_longpress_whitelist">Long press function name to white or black list parameter</string>
+    <string name="msg_settings_specific">Check marks and values take precedence over global check marks and values; empty check boxes and values do not take precedence</string>
+    <string name="msg_first"><b>Penjagaan rapi telah diambil untuk membangunkan dan menguji XLocation,
+namun ia adalah mustahil untuk menjaminkan penggunaan sempurna untuk setiap peranti dan untuk semua applikasi.
+\n\nPenggunaan adalah sepenuhnya di atas risiko sendiri.</b>\n\nLihat juga lesen:</string>
+    <string name="restrict_accounts" tools:ignore="UnusedResources">Akaun (Google, Facebook, dll)</string>
+    <string name="restrict_browser" tools:ignore="UnusedResources">Pelayar (penanda buku/sejarah)</string>
+    <string name="restrict_calendar" tools:ignore="UnusedResources">Kalendar</string>
+    <string name="restrict_calling" tools:ignore="UnusedResources">Panggilan (telefon, SMS, MMS)</string>
+    <string name="restrict_clipboard" tools:ignore="UnusedResources">Papan klip</string>
+    <string name="restrict_contacts" tools:ignore="UnusedResources">Hubungan</string>
+    <string name="restrict_dictionary" tools:ignore="UnusedResources">Kamus (pengguna)</string>
+    <string name="restrict_email" tools:ignore="UnusedResources">E-mel</string>
+    <string name="restrict_identification" tools:ignore="UnusedResources">Identiti (peranti)</string>
+    <string name="restrict_internet" tools:ignore="UnusedResources">Internet</string>
+    <string name="restrict_location" tools:ignore="UnusedResources">Lokasi (terperinci/am)</string>
+    <string name="restrict_media" tools:ignore="UnusedResources">Media (bunyi, gambar, video)</string>
+    <string name="restrict_messages" tools:ignore="UnusedResources">Mesej (SMS, MMS)</string>
+    <string name="restrict_network" tools:ignore="UnusedResources">Rangkaian (alamat)</string>
+    <string name="restrict_notifications" tools:ignore="UnusedResources">Pemberitahuan</string>
+    <string name="restrict_overlay" tools:ignore="UnusedResources">Lapisan</string>
+    <string name="restrict_phone" tools:ignore="UnusedResources">Telefon (identiti, nombor, panggilan)</string>
+    <string name="restrict_sensors" tools:ignore="UnusedResources">Penderia</string>
+    <string name="restrict_storage" tools:ignore="UnusedResources">Simpanan (media, kad SD)</string>
+    <string name="restrict_shell" tools:ignore="UnusedResources">Cengkerang (arahan, pengguna berkuasa)</string>
+    <string name="restrict_system" tools:ignore="UnusedResources">Sistem (aplikasi yang dipasangkan)</string>
+    <string name="restrict_view" tools:ignore="UnusedResources">Tinjauan (pelayar)</string>
+    <string name="restrict_help_view">Will restrict access to view actions and information</string>
+    <string name="restrict_help_system">Will restrict access to system information, like installed applications</string>
+    <string name="restrict_help_shell">Will restrict access to shell commands, including superuser commands</string>
+    <string name="restrict_help_storage">Will restrict access to the storage, like files on your SD card or the internal storage</string>
+    <string name="restrict_help_sensors">Will restrict access to the sensors, like the motion sensor</string>
+    <string name="restrict_help_phone">Will restrict access to phone information, like your phone number</string>
+    <string name="restrict_help_overlay">Will restrict overlay windows to prevent phishing</string>
+    <string name="restrict_help_notifications">Will restrict access to system and application notifications and Google cloud messaging</string>
+    <string name="restrict_help_nfc">Will restrict access to near field communication</string>
+    <string name="restrict_help_network">Will restrict access to network information, like IP and MAC addresses and Wi-Fi network information</string>
+    <string name="restrict_help_messages">Will restrict access to stored and received messages (SMS/MMS) and voicemail</string>
+    <string name="restrict_help_media">Will restrict access to the camera (photos and videos) and the microphone</string>
+    <string name="restrict_help_location">Will restrict access to your coarse and fine location</string>
+    <string name="restrict_help_ipc">Will restrict inter-process communication, when used to circumvent other restrictions</string>
+    <string name="restrict_help_internet">Will restrict access to the Internet</string>
+    <string name="restrict_help_identification">Will restrict information which can identify you, like the serial number of your device</string>
+    <string name="restrict_help_email">Will restrict access to e-mail information, like addresses and messages (standard and G-mail application only)</string>
+    <string name="restrict_help_dictionary">Will restrict access to the user dictionary</string>
+    <string name="restrict_help_contacts">Will restrict access to information about your contacts</string>
+    <string name="restrict_help_clipboard">Will restrict access to information on the clipboard</string>
+    <string name="restrict_help_calling">Will restrict calling phone numbers, sending messages (SMS/MMS) and access to your calling history</string>
+    <string name="restrict_help_calendar">Will restrict access to your calendar information, like your appointments</string>
+    <string name="restrict_help_browser">Will restrict access to browser information, like your bookmarks and the download history</string>
+    <string name="restrict_help_accounts">Will restrict access to account information, like your Google account, which includes your G-mail address</string>
+    <string name="whitelist_address">Addresses</string>
+    <string name="whitelist_action">Action</string>
+    <string name="whitelist_ipaddress">IP addresses</string>
+    <string name="whitelist_library">Native libraries</string>
+    <string name="whitelist_method">Method names</string>
+    <string name="whitelist_filename">File names</string>
+    <string name="whitelist_command">Shell commands</string>
+    <string name="whitelist_url">URLs</string>
+    <string name="whitelist_transaction">Transactions</string>
+    <string name="whitelist_permission">Permissions</string>
+    <string name="title_restrict">Tanda untuk sekat:</string>
+    <string name="title_check_whitelist">Check to allow:</string>
+    <string name="title_fused">Tapis data digunakan</string>
+    <string name="title_finternet">Tapis internet diakses</string>
+    <string name="title_fpermission">Tapis kebenaran</string>
+    <string name="title_frestricted">Tapis sekatan</string>
+    <string name="title_fuser">Tapis aplikasi pengguna</string>
+    <string name="title_fondemand">Tapis atas permintaan</string>
+    <string name="title_fsystem">Tapis aplikasi sistem</string>
+    <string name="title_fnot">Sangkalan</string>
+    <string name="title_sname">Mengikut nama</string>
+    <string name="title_suid">Mengikut uid</string>
+    <string name="title_sinstalled">Mengikut tarikh dipasang</string>
+    <string name="title_supdated">Mengikut tarikh dikemaskini</string>
+    <string name="title_smodified">Mengikut tarikh diubahsuai (XLocation)</string>
+    <string name="title_sstate">By state (XLocation)</string>
+    <string name="title_sinvert">Terbalikkan susunan</string>
+    <string name="title_attempt">Percubaan penggunaan:</string>
+    <string name="title_category">Kategori:</string>
+    <string name="title_function">Fungsi:</string>
+    <string name="title_parameters">Parameter:</string>
+    <string name="title_applycat">Laksanakan ke seluruh kategori</string>
+    <string name="title_once">Once for</string>
+    <string name="title_whitelist">White/blacklist \'%s\'</string>
+    <string name="title_allow">Benarkan</string>
+    <string name="title_deny">Tidak dibenarkan</string>
+    <string name="title_dontknow">Don\'t know</string>
+    <string name="title_pleasesubmit">Sila kemukakan sekatan anda untuk menolong orang lain</string>
+    <string name="title_permissions">Kebenaran</string>
+    <string name="title_set_restrict">Restrict</string>
+    <string name="title_template_category">Apply template (categories)</string>
+    <string name="title_template_full">Apply template (categories+functions)</string>
+    <string name="title_template_merge">Apply template (merge set)</string>
+    <string name="title_template_merge_reset">Apply template (merge reset)</string>
+    <string name="title_enable_ondemand">Enable on demand restricting</string>
+    <string name="title_disable_ondemand">Disable on demand restricting</string>
+    <string name="title_ondemand_default">Timeout will:</string>
+    <string name="title_ondemand_reset">Reset</string>
+    <string name="title_default">Default</string>
+    <string name="title_alternate">Alternate</string>
+    <string name="title_usage_header">Usage</string>
+    <string name="title_usage_text_1">1. Find the application to restrict in the main application list</string>
+    <string name="title_usage_text_2">2. Tap on the application icon</string>
+    <string name="title_usage_text_3">3. Tap the first check box of any category you want to restrict</string>
+    <string name="title_usage_footer">Use common sense when restricting, don\'t expect internet access if you restricted the internet category, etc.</string>
+    <string name="title_toggle_dangerous">Long press on a title to toggle dangerous functions</string>
+    <string name="title_ondemand_category">Applying to the category will reset the function exceptions to default values</string>
+    <string name="title_function_help">Function documentation</string>
+    <string name="title_unsafe">is unsafe, can be circumvented</string>
+    <string name="title_update_checking">Checking for update</string>
+    <string name="title_update_downloading">Downloading update</string>
+    <string name="title_update_install">Tap to install update</string>
+    <string name="title_update_none">No updates available</string>
+    <string name="title_update_legacy">XLocation 2 is not supported anymore, please consider upgrading to XLocation 3</string>
+    <string name="settings_serial">Siri#</string>
+    <string name="settings_lat">Latitud</string>
+    <string name="settings_lon">Longitud</string>
+    <string name="settings_alt">Altitud</string>
+    <string name="settings_mac">Alamat MAC</string>
+    <string name="settings_ip">Alamat IP</string>
+    <string name="settings_phone">Nombor telefon</string>
+    <string name="settings_id">Identiti Android</string>
+    <string name="settings_adid">Identiti iklan</string>
+    <string name="settings_country">Negara</string>
+    <string name="settings_operator">Pengendali</string>
+    <string name="settings_subscriber">Identiti pelanggan</string>
+    <string name="settings_ua">Ejen pengguna</string>
+    <string name="settings_general">Am</string>
+    <string name="settings_fake_data">Data palsu</string>
+    <string name="settings_notify">Pemberitahuan pengemaskinian</string>
+    <string name="settings_ondemand">Sekatan di atas permintaan</string>
+    <string name="settings_blacklist">Blacklist accounts, applications and contacts</string>
+    <string name="settings_log">Log nyahsilap (perlu mula semula)</string>
+    <string name="settings_expert">Mod pakar</string>
+    <string name="settings_confidence">Selang keyakinan pengambilan maxima</string>
+    <string name="settings_experimental">Fungsi dalam percubaan (perlu mula semula)</string>
+    <string name="settings_https">Guna sambungan terjamin</string>
+    <string name="settings_syscomponents">Sekat komponen sistem (Android)</string>
+    <string name="settings_usagedata">Tunjuk penggunaan data aplikasi</string>
+    <string name="settings_parameters">Show parameters of usage data</string>
+    <string name="settings_cid">GSM Cell ID</string>
+    <string name="settings_lac">GSM LAC</string>
+    <string name="settings_quirks">Quirks</string>
+    <string name="settings_aosp">AOSP mode (requires reboot)</string>
+    <string name="help_check_restrict">First check box: restrict category or function</string>
+    <string name="help_check_ondemand">Second check box: restrict on demand</string>
+    <string name="help_switch">On/off switch: enable or disable all restrictions</string>
+    <string name="help_longpress">Tekan lama pada nama untuk pilih</string>
+    <string name="help_ondemand">sekatan akan diminta</string>
+    <string name="help_application">Aplikasi</string>
+    <string name="help_internet">mempunyai kebenaran Internet</string>
+    <string name="help_granted">mempunyai kebenaran Android</string>
+    <string name="help_used">telah guna data ini</string>
+    <string name="help_used_grayed">tiada penggunaan data</string>
+    <string name="help_frozen">telah dilumpuhkan</string>
+    <string name="help_dangerous">adalah bahaya, sekatan boleh menimbulkan masalah</string>
+    <string name="help_half">sebahagiannya disekat</string>
+    <string name="help_attention">sekatan memerlukan perhatian</string>
+    <string name="help_restricted">sekatan telah berubah</string>
+    <string name="help_shared">sekatan telah dikemukakan</string>
+    <string name="help_settings">has application specific fake values</string>
+    <string name="tutorial_mainheader">Pilih kategori untuk sekat</string>
+    <string name="tutorial_mainlist">Tanda kotak untuk sekat kategori yang dipilih untuk aplikasi\n
+\nAplikasi akan diberikan data kosong atau palsu untuk kategori yang disekat\n
+\nTekan ikon aplikasi untuk sekatan terperinci dan tetapan</string>
+    <string name="tutorial_detailsheader">Tekan ikon aplikasi untuk lebih lagi tindakan</string>
+    <string name="tutorial_detailslist">Tekan anak panah ke bawah untuk lihat pengecualian fungsi sekatan kategori</string>
+    <string name="permission_manage">Menguruskan aplikasi, termasuk mematikan</string>
+    <string name="permission_restrictions">Manage XLocation restrictions and settings</string>
+
+</resources>

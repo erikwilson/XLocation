@@ -1,0 +1,58 @@
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/onTouch"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#800000ff" >
+
+    <RelativeLayout
+        android:id="@+id/onTouchIconLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center" >
+
+        <RelativeLayout
+            android:id="@+id/onTouchIconView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <ImageView
+                android:id="@+id/onTouchThumb"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:contentDescription="@string/app_touch"
+                android:padding="4dp"
+                android:scaleType="centerInside"
+                android:src="@drawable/touch" />
+
+            <ImageView
+                android:id="@+id/onTouchCompass"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:contentDescription="@string/app_touch"
+                android:padding="4dp"
+                android:src="@drawable/compass" />
+        </RelativeLayout>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/onTouchTextLayout"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:gravity="top|center" >
+
+        <TextView
+            android:id="@+id/onTouchText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/rounded_corner"
+            android:paddingBottom="5dp"
+            android:paddingEnd="15dp"
+            android:paddingStart="15dp"
+            android:paddingTop="5dp"
+            android:textColor="#ffffff"
+            android:textSize="18sp"
+            android:visibility="gone" />
+        
+    </RelativeLayout>
+
+</AbsoluteLayout>
