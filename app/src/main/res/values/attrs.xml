@@ -1,0 +1,33 @@
+<resources>
+
+    <attr name="icon_restricted" format="reference" />
+    <attr name="icon_granted" format="reference" />
+    <attr name="icon_help" format="reference" />
+    <attr name="icon_info" format="reference" />
+    <attr name="icon_info_book" format="reference" />
+    <attr name="icon_whitelist" format="reference" />
+    <attr name="icon_internet" format="reference" />
+    <attr name="icon_used" format="reference" />
+    <attr name="icon_used_grayed" format="reference" />
+    <attr name="icon_system" format="reference" />
+    <attr name="icon_user" format="reference" />
+    <attr name="icon_user_system" format="reference" />
+    <attr name="icon_expander_minimized" format="reference" />
+    <attr name="icon_expander_maximized" format="reference" />
+    <attr name="icon_launcher" format="reference" />
+    <attr name="icon_clear" format="reference" />
+    <attr name="icon_clear_grayed" format="reference" />
+    <attr name="icon_frozen" format="reference" />
+    <attr name="icon_unsafe" format="reference" />
+    <attr name="color_dangerous" format="reference" />
+    <attr name="color_dangerous_off" format="reference" />
+    <attr name="color_dangerous_user" format="reference" />
+    <attr name="color_state_attention" format="reference" />
+    <attr name="color_state_restricted" format="reference" />
+    <attr name="color_state_shared" format="reference" />
+    <attr name="background_tutorial" format="reference" />
+    <attr name="progress_horizontal" format="reference" />
+    <attr name="cardStyle" format="reference" />
+    <attr name="list_item_pressed" format="reference" />
+
+</resources>

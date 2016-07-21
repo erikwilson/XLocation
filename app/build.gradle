@@ -1,0 +1,26 @@
+apply plugin: 'com.android.application'
+android {
+    compileSdkVersion 23
+    buildToolsVersion "24.0.0"
+
+    useLibrary 'org.apache.http.legacy'
+
+    defaultConfig {
+        applicationId "org.thoughtland.xlocation"
+        minSdkVersion 15
+        targetSdkVersion 23
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled true
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-project.txt'
+        }
+    }
+}
+
+dependencies {
+    provided 'de.robv.android.xposed:api:82'
+    compile 'com.android.support:appcompat-v7:23.0.0'
+    compile 'com.android.support:cardview-v7:23.0.0'
+}
