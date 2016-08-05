@@ -574,7 +574,7 @@ You can do this with [Tasker](https://play.google.com/store/apps/details?id=net.
 <a name="FAQ6"></a>
 **(6) Precisely which functions can XPrivacy restrict?**
 
-Many. See [here](https://github.com/M66B/XPrivacy/blob/master/src/biz/bokhorst/xprivacy/Meta.java) for details.
+Many. See [here](https://github.com/M66B/XPrivacy/blob/master/org/thoughtland/xlocation/Meta.java) for details.
 
 <a name="FAQ7"></a>
 **(7) How safe is XPrivacy?**
@@ -1106,7 +1106,7 @@ am start -a org.thoughtland.xlocation.action.TOGGLE --eia UidList 10123,10124 --
 
 * Flush cache, check for updates
 
-These actions require root or the permission *org.thoughtland.xlocation.MANAGE_XPRIVACY*.
+These actions require root or the permission *org.thoughtland.xlocation.MANAGE_XLOCATION*.
 
 ```
 am startservice -a org.thoughtland.xlocation.action.FLUSH
@@ -1283,7 +1283,7 @@ By creating this file:
 */data/system/xprivacy/disabled*
 
 Each line should either contain a category name or a category name and function name separated by a slash (/).
-See [here](https://github.com/M66B/XPrivacy/blob/master/src/biz/bokhorst/xprivacy/Meta.java#L47) for the correct category and function names.
+See [here](https://github.com/M66B/XPrivacy/blob/master/org/thoughtland/xlocation/Meta.java#L47) for the correct category and function names.
 
 If SELinux is restrictive, you need to add this build property:
 
@@ -1530,8 +1530,8 @@ Current translations:
 Restrict new data:
 
 * Find the package/class/method that exposes the data (look into the Android documentation/sources)
-* Create a class that extends [XHook](https://github.com/M66B/XPrivacy/blob/master/src/biz/bokhorst/xprivacy/XHook.java)
-* Hook the methods in [XPrivacy](https://github.com/M66B/XPrivacy/blob/master/src/biz/bokhorst/xprivacy/XPrivacy.java)
+* Create a class that extends [XHook](https://github.com/M66B/XPrivacy/blob/master/org/thoughtland/xlocation/XHook.java)
+* Hook the methods in [XPrivacy](https://github.com/M66B/XPrivacy/blob/master/org/thoughtland/xlocation/XPrivacy.java)
 * Write a before and/or after method to restrict the data
 * Do a [pull request](https://help.github.com/articles/using-pull-requests) if you want to contribute
 

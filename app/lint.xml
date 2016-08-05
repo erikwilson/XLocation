@@ -11,6 +11,6 @@
     <issue id="TypographyQuotes" severity="warning" />
     <issue id="UnusedIds" severity="warning" />
     <issue id="Wakelock">
-        <ignore path="src/biz/bokhorst/xprivacy/ActivityShare.java" />
+        <ignore path="org/thoughtland/xlocation/ActivityShare.java" />
     </issue>
 </lint>

@@ -4,10 +4,6 @@
     android:versionCode="481"
     android:versionName="3.6.19" >
 
-    <uses-sdk
-        android:minSdkVersion="15"
-        android:targetSdkVersion="23" />
-
     <permission-tree
         android:name="org.thoughtland.xlocation"
         android:description="@string/app_name"
@@ -19,7 +15,7 @@
         android:label="@string/permission_manage"
         android:protectionLevel="dangerous" />
     <permission
-        android:name="org.thoughtland.xlocation.MANAGE_XPRIVACY"
+        android:name="org.thoughtland.xlocation.MANAGE_XLOCATION"
         android:description="@string/permission_restrictions"
         android:label="@string/permission_restrictions"
         android:protectionLevel="dangerous" />
@@ -32,7 +28,7 @@
     <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
     <uses-permission android:name="android.permission.WAKE_LOCK" />
     <uses-permission android:name="org.thoughtland.xlocation.MANAGE_PACKAGES" />
-    <uses-permission android:name="org.thoughtland.xlocation.MANAGE_XPRIVACY" />
+    <uses-permission android:name="org.thoughtland.xlocation.MANAGE_XLOCATION" />
     <uses-permission android:name="org.thoughtland.xlocation.pro.CHECK" />
 
     <supports-screens
@@ -197,7 +193,7 @@
             android:name=".UpdateService"
             android:enabled="true"
             android:exported="true"
-            android:permission="org.thoughtland.xlocation.MANAGE_XPRIVACY"
+            android:permission="org.thoughtland.xlocation.MANAGE_XLOCATION"
             android:process=":update" >
             <intent-filter>
                 <action android:name="org.thoughtland.xlocation.action.FLUSH" />

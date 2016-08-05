@@ -60,9 +60,9 @@ Eclipse projects. Here's how the projects were restructured:
 * proguard-project.txt => app/proguard-project.txt
 * res/ => app/src/main/res/
 * src/ => app/src/main/java/
-* src/biz/bokhorst/xprivacy/IPrivacyService.aidl => app/src/main/aidl/biz/bokhorst/xprivacy/IPrivacyService.aidl
-* src/biz/bokhorst/xprivacy/PRestriction.aidl => app/src/main/aidl/biz/bokhorst/xprivacy/PRestriction.aidl
-* src/biz/bokhorst/xprivacy/PSetting.aidl => app/src/main/aidl/biz/bokhorst/xprivacy/PSetting.aidl
+* org/thoughtland/xlocation/IPrivacyService.aidl => app/src/main/aidl/biz/bokhorst/xprivacy/IPrivacyService.aidl
+* org/thoughtland/xlocation/PRestriction.aidl => app/src/main/aidl/biz/bokhorst/xprivacy/PRestriction.aidl
+* org/thoughtland/xlocation/PSetting.aidl => app/src/main/aidl/biz/bokhorst/xprivacy/PSetting.aidl
 
 Next Steps:
 -----------
